@@ -21,8 +21,8 @@ end
 
 def get_english_meaning(all_emoticons = './lib/emoticons.yml', japanese_emoticons)
 emoticon_index = load_library(all_emoticons)
-if emoticon_index["get_emoticon"].include?(japanese_emoticons)
-    emoticon_index["get_emoticon"][japanese_emoticons]
+if emoticon_index["get_meaning"].include?(japanese_emoticons)
+    emoticon_index["get_meaning"][japanese_emoticons]
   else
   "Sorry, that emoticon was not found"
     end
