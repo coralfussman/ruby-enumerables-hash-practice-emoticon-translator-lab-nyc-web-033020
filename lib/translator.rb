@@ -2,6 +2,7 @@ require "yaml"
 
 def load_library(emoticons)
   emoticons = YAML::load_stream(File.open('./lib/emoticons.yml'))
+  hash = {"get_emoticon": {}}
 
   emoticons
 end
