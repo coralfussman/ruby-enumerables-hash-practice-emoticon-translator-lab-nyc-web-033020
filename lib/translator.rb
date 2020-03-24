@@ -14,10 +14,9 @@ def get_japanese_emoticon(all_emoticons = './lib/emoticons.yml', english_emotico
 emoticon_index = load_library(all_emoticons)
 if emoticon_index["get_emoticon"].include?(english_emoticons)
     emoticon_index["get_emoticon"][english_emoticons]
-
-  english_emoticons
-   end
- "Sorry, unknown emoticon"
+  else
+    "Sorry, unknown emoticon"
+    end
 end
 
 def get_english_meaning
