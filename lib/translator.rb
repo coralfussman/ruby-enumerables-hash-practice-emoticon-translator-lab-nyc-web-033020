@@ -6,9 +6,8 @@ def load_library(all_emoticons)
   all_emoticons.each do |meaning, emoticons|
       hash["get_meaning"][emoticons[1]] = meaning
       hash["get_emoticon"][emoticons[0]] = emoticons[1]
-    end
-    result
-  emoticons
+    end  
+  hash
 end
 
 def get_japanese_emoticon
