@@ -15,7 +15,7 @@ emoticon_index = load_library(all_emoticons)
 if emoticon_index["get_emoticon"].include?(english_emoticons)
     emoticon_index["get_emoticon"][english_emoticons]
   else
-    "Sorry, unknown emoticon"
+  puts  "Sorry, unknown emoticon"
     end
 end
 
