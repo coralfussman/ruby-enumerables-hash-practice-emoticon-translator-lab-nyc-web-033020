@@ -16,7 +16,7 @@ if emoticon_index["get_emoticon"].include?(english_emoticons)
     emoticon_index["get_emoticon"][english_emoticons]
 
    end
-
+ "Sorry, unknown emoticon"
 end
 
 def get_english_meaning
