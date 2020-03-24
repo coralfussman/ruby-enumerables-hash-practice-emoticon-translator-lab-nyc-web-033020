@@ -12,8 +12,8 @@ end
 
 def get_japanese_emoticon(all_emoticons = './lib/emoticons.yml', english_emoticons)
 emoticon_index = load_library(all_emoticons)
-if english_emoticons.each do | emoticons |
-hash["get_emoticon"][emoticons[1]] = japanese_emoticons
+if library["get_emoticon"].include?(english_emoticon) 
+    library["get_emoticon"][english_emoticon]
 
    end
  japanese_emoticons
