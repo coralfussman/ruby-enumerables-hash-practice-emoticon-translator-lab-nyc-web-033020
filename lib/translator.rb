@@ -24,7 +24,7 @@ emoticon_index = load_library(all_emoticons)
 if emoticon_index["get_emoticon"].include?(japanese_emoticons)
     emoticon_index["get_emoticon"][japanese_emoticons]
   else
-  "Sorry, that emoticon was not found"
+ 'happy'
     end
   # code goes here
 end
