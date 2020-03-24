@@ -23,8 +23,7 @@ def get_english_meaning(all_emoticons = './lib/emoticons.yml', japanese_emoticon
 emoticon_index = load_library(all_emoticons)
 if emoticon_index["get_emoticon"].include?(japanese_emoticons)
     emoticon_index["get_emoticon"][japanese_emoticons]
-  else
- 'grinning'
+
     end
-'happy'
+'happy' + 'grinning'
 end
