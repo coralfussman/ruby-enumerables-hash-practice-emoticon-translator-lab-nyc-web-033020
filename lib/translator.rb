@@ -25,5 +25,5 @@ if emoticon_index["get_emoticon"].include?(japanese_emoticons)
     emoticon_index["get_emoticon"][japanese_emoticons]
 
     end
-'happy' + 'grinning'
+'happy'  'grinning'
 end
