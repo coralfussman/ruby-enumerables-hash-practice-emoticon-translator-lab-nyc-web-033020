@@ -1,6 +1,6 @@
 require "yaml"
 emot = YAML.load_file('emoticons.yml')
-
+emot
 def load_library
   # code goes here
 end
