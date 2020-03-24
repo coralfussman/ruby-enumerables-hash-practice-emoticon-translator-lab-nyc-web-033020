@@ -26,6 +26,6 @@ if emoticon_index["get_emoticon"].include?(japanese_emoticons)
   else
   "Sorry, that emoticon was not found"
     end
-    get_english_meaning('happy','grinning')
-    get_english_meaning
+    ('happy','grinning')
+    
 end
