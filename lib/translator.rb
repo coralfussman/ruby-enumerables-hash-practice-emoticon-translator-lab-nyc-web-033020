@@ -10,9 +10,9 @@ def load_library(all_emoticons)
   hash
 end
 
-def get_japanese_emoticon
-#   (load_file('./lib/emoticons.yml'), english_emoticons)
-# english_emoticons
+def get_japanese_emoticon(load_file('./lib/emoticons.yml'), english_emoticons)
+english_emoticons.each do | emoticons |
+hash["get_emoticon"][emoticons[1]] = japanese_emoticons
 end
 
 def get_english_meaning
