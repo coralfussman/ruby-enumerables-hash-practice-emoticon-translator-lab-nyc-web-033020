@@ -12,8 +12,8 @@ end
 
 def get_japanese_emoticon(all_emoticons = './lib/emoticons.yml', english_emoticons)
 emoticon_index = load_library(all_emoticons)
-if emoticon_index["get_emoticon"].include?(english_emoticon)
-    emoticon_index["get_emoticon"][english_emoticon]
+if emoticon_index["get_emoticon"].include?(english_emoticons)
+    emoticon_index["get_emoticon"][english_emoticons]
 
    end
 
