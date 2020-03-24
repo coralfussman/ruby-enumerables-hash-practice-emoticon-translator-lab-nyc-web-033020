@@ -26,5 +26,4 @@ if emoticon_index["get_emoticon"].include?(japanese_emoticons)
   else
   "Sorry, that emoticon was not found"
     end
-
 end
