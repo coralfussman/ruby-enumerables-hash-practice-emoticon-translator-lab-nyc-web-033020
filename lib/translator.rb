@@ -16,7 +16,7 @@ if library["get_emoticon"].include?(english_emoticon)
     library["get_emoticon"][english_emoticon]
 
    end
- japanese_emoticons
+ 
 end
 
 def get_english_meaning
